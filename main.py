@@ -66,18 +66,18 @@ os.system("cls")
 # The actual game
 while True:
     wordsList = [
-    "plaintiff",
-    "posthumous",
-    "controversy",
-    "unsanitary",
-    "precipitate",
-    "belligerent",
-    "serviceable",
-    "scandalized",
-    "unenforceable",
-    "potpourri",
-    "metamorphosis",
-    "caricature"
+        "plaintiff",
+        "posthumous",
+        "controversy",
+        "unsanitary",
+        "precipitate",
+        "belligerent",
+        "serviceable",
+        "scandalized",
+        "unenforceable",
+        "potpourri",
+        "metamorphosis",
+        "caricature"
     ]
 
     word = random.choice(wordsList)

@@ -94,6 +94,7 @@ while True:
     engine.runAndWait()
 
     usersSpelling = input("\n\nEnter the spelling of the word: ")
+    usersSpelling = usersSpelling.lower()
 
     if usersSpelling == word:
         print("\n\nYou guessed the word's spelling correctly!")

@@ -21,7 +21,7 @@ engine.setProperty('rate', 125)
 
 # Introduction to the game
 os.system("cls")
-one = "\n\nWelcome to Supelion's Spelling Bee!"
+one = "\n\nWelcome to Spelling Bee!"
 for char in one:
     sys.stdout.write(char)
     sys.stdout.flush()
